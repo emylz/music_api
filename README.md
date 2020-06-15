@@ -67,4 +67,19 @@ I have created four Python scripts :
  ```
  The Api will run on the port 5000. You will have a message to tell you that the server is running.
  
- ### 
+ ### Make requests
+ 
+ Open Insomnia and type the following request:
+ 
+ ```bash
+GET http://127.0.0.1:5000/artists/all
+ ```
+ This request will return all the artists in database. This works in replacing artists by albums or tracks too.
+ 
+ You can also add a new artist or remove all the artists from the database.
+ 
+ 1. Add tags to content
+ 
+ 2. Get content list from a tag set
+ 
+ 3. Export all the tagged content
