@@ -12,6 +12,7 @@ The format of the data is :
  
  - tags : this is a list which contains all tags associated to the item. We can use the Api to add tags to the item we want (ex: tag_a)
  
+This api has been implemented in Python 3.
 
 ## Solution used
 
@@ -30,7 +31,7 @@ I have created four Python scripts :
  
  ## Setup
  
- You have to get following packages installed on your machine. You get them with the following linux commands:
+ You have to get following packages installed on your machine. You get them with the following Linux commands:
  
  - Flask restful
  ```bash
@@ -51,3 +52,13 @@ I have created four Python scripts :
  ```bash
  python3 -m pip install dnspython
  ```
+ 
+ ## Run the Api
+ 
+ The Api runs on Linux. Open a konsole and go to the directory where your project is. This directory must contain the four Python scripts. 
+ 
+ Run: 
+  ```bash
+ python3 api.py
+ ```
+ 
