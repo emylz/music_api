@@ -92,7 +92,7 @@ POST http://127.0.0.1:5000/artists/id
   ```bash
 GET http://127.0.0.1:5000/tracks?tags[]=tag_a&tags[]=tag_f
  ```
- where tag_a and tag_b are the tags wich must be in the tags list of the returned items. Replace tracks by albums or artists to get the albums or artists items.
+where tag_a and tag_b are the tags wich must be in the tags list of the returned items. Replace tracks by albums or artists to get the albums or artists items.
 There will be a json array of response where the content will be all the id of the items that have the tags in parameters.
  
  3. Export all the tagged content
@@ -101,4 +101,5 @@ There will be a json array of response where the content will be all the id of t
   ```bash
 GET http://127.0.0.1:5000/export
  ```
- T
+This request will get all data from all the collections. A json file will be created where each line is an item from the database.
+There will be a json response in Insomnia with the result of the request.
