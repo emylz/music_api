@@ -28,10 +28,11 @@ I have created four Python scripts :
  - tracks.py has all functions which interact with the tracks collection.
  
  
- ## Initialisation
+ ## Setup
  
  You have to get following packages installed on your machine.
  
+ ```bash
  | pip3 install pymongo
- 
+ ```
 
