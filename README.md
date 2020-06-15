@@ -30,9 +30,24 @@ I have created four Python scripts :
  
  ## Setup
  
- You have to get following packages installed on your machine.
+ You have to get following packages installed on your machine:
  
+ - Flask restful
  ```bash
- | pip3 install pymongo
+ sudo apt install python3-flask-restful
  ```
-
+ 
+  - Flask PyMongo
+  ```bash
+ python3 -m pip install flask_pymongo
+ ```
+ 
+   - PyMongo
+  ```bash
+ pip3 install pymongo
+ ```
+ 
+ - DNSPython
+ ```bash
+ python3 -m pip install dnspython
+ ```
