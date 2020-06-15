@@ -30,7 +30,7 @@ I have created four Python scripts :
  
  ## Setup
  
- You have to get following packages installed on your machine:
+ You have to get following packages installed on your machine. You get them with the following linux commands:
  
  - Flask restful
  ```bash
