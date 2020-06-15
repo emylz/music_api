@@ -53,7 +53,11 @@ I have created four Python scripts :
  python3 -m pip install dnspython
  ```
  
- ## Run the Api
+ Then use the REST Client Insomnia to make rest request.
+ 
+ ## Run
+ 
+ ### Run the Api
  
  The Api runs on Linux. Open a konsole and go to the directory where your project is. This directory must contain the four Python scripts. 
  
@@ -61,4 +65,6 @@ I have created four Python scripts :
   ```bash
  python3 api.py
  ```
+ The Api will run on the port 5000. You will have a message to tell you that the server is running.
  
+ ### 
