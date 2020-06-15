@@ -26,4 +26,12 @@ I have created four Python scripts :
  - artists.py has all functions which interact with the artists collection.
 
  - tracks.py has all functions which interact with the tracks collection.
+ 
+ 
+ ## Initialisation
+ 
+ You have to get following packages installed on your machine.
+ 
+ | pip3 install pymongo
+ 
 
