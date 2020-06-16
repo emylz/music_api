@@ -12,7 +12,7 @@ The format of the data is :
  
  - tags : this is a list which contains all tags associated to the item. We can use the Api to add tags to the item we want (ex: tag_a)
  
-This api has been implemented in Python 3.
+This api has been implemented with Python 3.
 
 ## Solution used
 
