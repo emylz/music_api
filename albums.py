@@ -53,7 +53,7 @@ def add_album():
     type_album= request.json['type']
     
 
-    #Check if the type of the item is good
+    #Check if the type of the item is right
     if(type_album != "album"):
     	return  "Wrong type", 400
     
