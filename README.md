@@ -20,7 +20,7 @@ This is a json web service that allows the user to manage an online music store.
 
  - type : the type of the data. This is the name of the collection where the data is stored (ex: track).
  
- - id : the id of the data inside the database. The id is mainly used to find item to make a difference between the data (ex: 123).
+ - id : the ID of the data inside the database. The ID is mainly used to find item to make a difference between the data (ex: 123).
  
  - tags : this is a list which contains all tags associated to the item. We can use the Api to add tags to the item of our choice (ex: tag_a).
  
@@ -111,7 +111,7 @@ DELETE http://127.0.0.1:5000/artists/remove
   ```bash
 POST http://127.0.0.1:5000/artists/id
  ```
- where id is the id of the item where you want to add tags. Artists is the collection. This is the same for albums and tracks. Do not forget to pass json array in the body of your request which contains the tags.
+ where id is the ID of the item where you want to add tags. Artists is the collection. This is the same for albums and tracks. Do not forget to pass json array in the body of your request which contains the tags.
  
  **2. Get content list from a tag set** <a id="link8">
  
@@ -120,7 +120,7 @@ POST http://127.0.0.1:5000/artists/id
 GET http://127.0.0.1:5000/tracks?tags[]=tag_a&tags[]=tag_f
  ```
 where tag_a and tag_b are the tags which must be in the tags list of the returned items. Replace tracks by albums or artists to get the albums or artists items.
-There will be a json array as response where the content will be all the id of the items that have the tags in parameters.
+There will be a json array as response where the content will be all the IDs of the items that have the tags in parameters.
  
  **3. Export all the tagged content** <a id="link9">
 
