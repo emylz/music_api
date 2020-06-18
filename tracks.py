@@ -118,7 +118,7 @@ def search_by_tag_tracks():
     #Preparing the response body
     output = []
 
-    #Find and get all the tracks having the matching tags
+    #Find and get all the tracks which have the matching tags
     for track in tracks.find({"tags":{"$all":tags}}):
         output.append(track['_id'])
     
