@@ -8,9 +8,9 @@
 - [Run](#link4)
    - [Run the Api](#link5)
    - [Make requests](#link6)
-        - [Add tags to content](#link7)
-        - [Get content list from a tag set](#link8)
-        - [Export all the tagged content](#link9)
+        - [1. Add tags to content](#link7)
+        - [2. Get content list from a tag set](#link8)
+        - [3. Export all the tagged content](#link9)
 
 ## Introduction  <a id="link1">
 
