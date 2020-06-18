@@ -30,7 +30,7 @@ This api has been implemented with Python 3 for Linux.
 
 The items are stored in a MongoDB cloud database. To communicate with this database, I have designed Python scripts and I have used the Flask library. This allows me to make PUT, POST or GET requests to manage the database.
 
-**I have created four Python scripts : **
+**I have created four Python scripts :**
  
  - api.py is the main script. This is the script which takes the requests and uses several functions to get data from the database.
  
@@ -73,7 +73,7 @@ The items are stored in a MongoDB cloud database. To communicate with this datab
  
  The Api runs on Linux. Open a console and go to the directory where your project is. This directory must contain the four Python scripts. 
  
- Run: 
+**Run:** 
   ```bash
  python3 api.py
  ```
@@ -97,7 +97,7 @@ POST http://127.0.0.1:5000/artists/add
 {"type":"artist", "id":id (int), "tags":["tag_1", ... , "tag_n"]}
  ```
 
- **You can also remove all the artists in the database with : **
+ **You can also remove all the artists in the database with :**
  
    ```bash
 DELETE http://127.0.0.1:5000/artists/remove
