@@ -120,7 +120,7 @@ POST http://127.0.0.1:5000/artists/id
 GET http://127.0.0.1:5000/tracks?tags[]=tag_a&tags[]=tag_f
  ```
 where tag_a and tag_b are the tags which must be in the tags list of the returned items. Replace tracks by albums or artists to get the albums or artists items.
-There will be a json array of response where the content will be all the id of the items that have the tags in parameters.
+There will be a json array as response where the content will be all the id of the items that have the tags in parameters.
  
  **3. Export all the tagged content** <a id="link9">
 
