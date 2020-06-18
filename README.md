@@ -32,7 +32,7 @@ The items are stored in a MongoDB cloud database. To communicate with this datab
 
 I have created four Python scripts : 
  
- - api.py is the main script. This is the script which take the request and use several functions to get data from the database.
+ - api.py is the main script. This is the script which takes the requests and uses several functions to get data from the database.
  
  - albums.py has all functions which interact with the albums collection.
  
