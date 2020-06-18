@@ -1,6 +1,15 @@
 # Music Api
 
-## Introduction
+## Table of contents
+
+- [Introduction] (#link1)
+- [Solution used] (#link2)
+- [Setup] (#link3)
+- [Run] (#link4)
+-- [Run the Api] (#link5)
+-- [Make requests] (#link6)
+
+## Introduction  <a id="link1">
 
 This is a json web service that allow to manage an online music store. The items are stored in a MongoDB database. I have used MongoDB Atlas to store my data. There are three collections inside the database : albums, artists and trakcs. Each collection contain the data type of their name (the collection albums contains albums).
 
@@ -14,7 +23,7 @@ The format of the data is :
  
 This api has been implemented with Python 3.
 
-## Solution used
+## Solution used  <a id="link2">
 
 The items are store in a MongoDB cloud database. To communicate with this database, I have designed Python scripts and I have used the Flask library. This allow me to make PUT, POST or GET request to manage the database.
 
@@ -29,7 +38,7 @@ I have created four Python scripts :
  - tracks.py has all functions which interact with the tracks collection.
  
  
- ## Setup
+ ## Setup  <a id="link3">
  
  You have to get following packages installed on your machine. You can get them with the following Linux commands:
  
@@ -55,9 +64,9 @@ I have created four Python scripts :
  
  Then use the REST Client Insomnia to make rest request.
  
- ## Run
+ ## Run  <a id="link4">
  
- ### Run the Api
+ ### Run the api  <a id="link5">
  
  The Api runs on Linux. Open a konsole and go to the directory where your project is. This directory must contain the four Python scripts. 
  
@@ -67,7 +76,7 @@ I have created four Python scripts :
  ```
  The Api will run on the port 5000. You will have a message to tell you that the server is running.
  
- ### Make requests
+ ### Make requests  <a id="link6">
  
  Open Insomnia and type the following request:
  
