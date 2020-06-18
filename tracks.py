@@ -64,11 +64,11 @@ def add_track():
     #Get the track information from the database with its id (track_id)
     new_track = tracks.find_one({'_id' : id_track})
 
-    #Check if the information are corrects in the database
+    #Check if the information are correct in the database
     output = {'type':new_track['type'], 'id' : new_track['_id'], 'tags' : new_track['tags']}
 
     #Show the content of the track inserted as response
-    #to check if the information are corrects
+    #to check if the information are correct
     return jsonify({'result': output})
 
 
@@ -102,7 +102,7 @@ def add_tags_tracks(id_track):
     output = {'type':updated_track['type'], 'id' : updated_track['_id'], 'tags' : updated_track['tags']}
 
     #Show the content of the updated track as response
-    #to check if the information are corrects
+    #to check if the information are correct
     return jsonify({'result':output})
 
 
