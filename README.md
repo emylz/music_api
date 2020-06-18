@@ -6,8 +6,8 @@
 - [Solution used](#link2)
 - [Setup](#link3)
 - [Run](#link4)
- -- [Run the Api](#link5)
- -- [Make requests](#link6)
+ `- [Run the Api](#link5)
+ `- [Make requests](#link6)
 
 ## Introduction  <a id="link1">
 
