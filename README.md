@@ -92,7 +92,7 @@ GET http://127.0.0.1:5000/artists/all
   ```bash
 POST http://127.0.0.1:5000/artists/add
  ```
- You have to add a json body with the request in Insomnia of this format :
+ You have to add a json body of this forma twith the request in Insomnia :
   ```bash
 {"type":"artist", "id":id (int), "tags":["tag_1", ... , "tag_n"]}
  ```
