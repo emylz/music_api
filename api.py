@@ -4,7 +4,7 @@ from flask_pymongo import PyMongo
 
 from json import dumps
 
-#These are the scripts where the funtions are
+#These are the scripts where the functions are
 from artists import *
 from albums import *
 from tracks import *
