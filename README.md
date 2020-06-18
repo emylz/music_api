@@ -105,8 +105,6 @@ DELETE http://127.0.0.1:5000/artists/remove
  
  The previous urls requests work with the collections albums and tracks too.
  
- 
- 
  **1. Add tags to content** <a id="link7">
  
  Use the following request:
@@ -114,8 +112,6 @@ DELETE http://127.0.0.1:5000/artists/remove
 POST http://127.0.0.1:5000/artists/id
  ```
  where id is the id of the item where you want to add tags. Artists is the collection. This is the same for albums and tracks. Do not forget to pass json array in the body of your request which contains the tags.
- 
- 
  
  **2. Get content list from a tag set** <a id="link8">
  
@@ -125,8 +121,6 @@ GET http://127.0.0.1:5000/tracks?tags[]=tag_a&tags[]=tag_f
  ```
 where tag_a and tag_b are the tags wich must be in the tags list of the returned items. Replace tracks by albums or artists to get the albums or artists items.
 There will be a json array of response where the content will be all the id of the items that have the tags in parameters.
- 
- 
  
  **3. Export all the tagged content** <a id="link9">
 
