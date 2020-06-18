@@ -53,20 +53,24 @@ def add_album():
     type_album= request.json['type']
     
 
-    #Check if the type the item is good
+    #Check if the type of the item is good
     if(type_album != "album"):
     	return  "Wrong type", 400
+    
 
     #Insert the album in the database
     #insert function return the id
     album_id = albums.insert({'type':type_album, '_id' : id_album, 'tags' : tags_album})
 
+    
     #Get the album information from the database with its id (album_id)
     new_album = albums.find_one({'_id' : album_id})
 
+    
     #Check if the information are corrects in the database
     output = {'type':new_album['type'], 'id' : new_album['_id'], 'tags' : new_album['tags']}
 
+    
     #Show the content of the album inserted as response
     #to check if the information are corrects
     return jsonify({'result': output})
