@@ -77,7 +77,7 @@ The items are stored in a MongoDB cloud database. To communicate with this datab
   ```bash
  python3 api.py
  ```
- The Api will run on the port 5000. You will receive a message to tell you that the server is running.
+ The Api will run on the port 5000. The console will print a message to tell you that the server is running.
  
  ### Make requests  <a id="link6">
  
