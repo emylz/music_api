@@ -64,11 +64,11 @@ def add_artist():
     #Get the artist information from the database with its id (artist_id)
     new_artist = artists.find_one({'_id' : id_artist})
 
-    #Check if the information are corrects in the database
+    #Check if the information are correct in the database
     output = {'type':new_artist['type'], 'id' : new_artist['_id'], 'tags' : new_artist['tags']}
 
     #Show the content of the artist inserted as response
-    #to check if the information are corrects
+    #to check if the information are correct
     return jsonify({'result': output})
 
 
@@ -102,7 +102,7 @@ def add_tags_artists(id_artist):
     output = {'type':updated_artist['type'], 'id' : updated_artist['_id'], 'tags' : updated_artist['tags']}
 
     #Show the content of the updated artist as response
-    #to check if the information are corrects
+    #to check if the information are correct
     return jsonify({'result':output})
 
 
