@@ -30,7 +30,7 @@ This api has been implemented with Python 3 for Linux.
 
 The items are stored in a MongoDB cloud database. To communicate with this database, I have designed Python scripts and I have used the Flask library. This allows me to make PUT, POST or GET requests to manage the database.
 
-I have created four Python scripts : 
+**I have created four Python scripts : **
  
  - api.py is the main script. This is the script which takes the requests and uses several functions to get data from the database.
  
@@ -81,23 +81,23 @@ I have created four Python scripts :
  
  ### Make requests  <a id="link6">
  
- Open Insomnia and type the following request:
+ **Open Insomnia and type the following request:**
  
  ```bash
 GET http://127.0.0.1:5000/artists/all
  ```
  This request will return all the artists in database. This works in replacing artists by albums or tracks too.
  
- To add a new artist in the database use:
+ **To add a new artist in the database use:**
   ```bash
 POST http://127.0.0.1:5000/artists/add
  ```
- You have to add a json body of this forma twith the request in Insomnia :
+ **You have to add a json body of this forma twith the request in Insomnia :**
   ```bash
 {"type":"artist", "id":id (int), "tags":["tag_1", ... , "tag_n"]}
  ```
 
- You can also remove all the artists in the database with : 
+ **You can also remove all the artists in the database with : **
  
    ```bash
 DELETE http://127.0.0.1:5000/artists/remove
