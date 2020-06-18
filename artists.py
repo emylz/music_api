@@ -53,7 +53,7 @@ def add_artist():
     type_artist = request.json['type']
 
     
-    #Check if the type the item is good
+    #Check if the type of the item is good
     if(type_artist != "artist"):
         return  "Wrong type", 400
 
