@@ -122,7 +122,7 @@ def search_by_tag_albums():
     #Preparing the response body
     output = []
 
-    #Find and get all the albums having the matching tags
+    #Find and get all the albums which have the matching tags
     for album in albums.find({"tags":{"$all":tags}}):
         output.append(album['_id'])
 
