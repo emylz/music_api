@@ -8,6 +8,9 @@
 - [Run](#link4)
    - [Run the Api](#link5)
    - [Make requests](#link6)
+        - [Add tags to content](#link7)
+        - [Get content list from a tag set](#link8)
+        - [Export all the tagged content](#link9)
 
 ## Introduction  <a id="link1">
 
@@ -85,9 +88,24 @@ GET http://127.0.0.1:5000/artists/all
  ```
  This request will return all the artists in database. This works in replacing artists by albums or tracks too.
  
- You can also add a new artist or remove all the artists from the database.
+ To add a new artist in the database use:
+  ```bash
+POST http://127.0.0.1:5000/artists/add
+ ```
+ You have to add a json body with the request in Insomnia of this format :
+  ```bash
+{"type":"artist", "id":id (int), "tags":[tag_1, ... , tag_n]}
+ ```
+
+ You can also remove all the artists in the database with : 
  
- 1. Add tags to content
+   ```bash
+DELETE http://127.0.0.1:5000/artists/remove
+ ```
+ 
+ The previous urls requests work with the collections albums and tracks too.
+ 
+ 1. Add tags to content <a id="link7">
  
  Use the following request:
   ```bash
@@ -95,7 +113,7 @@ POST http://127.0.0.1:5000/artists/id
  ```
  where id is the id of the item where you want to add tags. Artists is the collection. This is the same for albums and tracks. Do not forget to pass json array in the body of your request which contains the tags.
  
- 2. Get content list from a tag set
+ 2. Get content list from a tag set <a id="link8">
  
   Use the following request:
   ```bash
@@ -104,7 +122,7 @@ GET http://127.0.0.1:5000/tracks?tags[]=tag_a&tags[]=tag_f
 where tag_a and tag_b are the tags wich must be in the tags list of the returned items. Replace tracks by albums or artists to get the albums or artists items.
 There will be a json array of response where the content will be all the id of the items that have the tags in parameters.
  
- 3. Export all the tagged content
+ 3. Export all the tagged content <a id="link9">
 
   Use the following request:
   ```bash
