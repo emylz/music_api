@@ -22,13 +22,13 @@ The format of the data is :
  
  - id : the id of the data inside the database. The id is mainly used to find item to make a difference between the data (ex: 123).
  
- - tags : this is a list which contains all tags associated to the item. We can use the Api to add tags to the item we want (ex: tag_a).
+ - tags : this is a list which contains all tags associated to the item. We can use the Api to add tags to the item of our choice (ex: tag_a).
  
 This api has been implemented with Python 3 for Linux.
 
 ## Solution used  <a id="link2">
 
-The items are store in a MongoDB cloud database. To communicate with this database, I have designed Python scripts and I have used the Flask library. This allow me to make PUT, POST or GET request to manage the database.
+The items are stored in a MongoDB cloud database. To communicate with this database, I have designed Python scripts and I have used the Flask library. This allow me to make PUT, POST or GET request to manage the database.
 
 I have created four Python scripts : 
  
