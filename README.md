@@ -28,7 +28,7 @@ This api has been implemented with Python 3 for Linux.
 
 ## Solution used  <a id="link2">
 
-The items are stored in a MongoDB cloud database. To communicate with this database, I have designed Python scripts and I have used the Flask library. This allow me to make PUT, POST or GET request to manage the database.
+The items are stored in a MongoDB cloud database. To communicate with this database, I have designed Python scripts and I have used the Flask library. This allows me to make PUT, POST or GET request to manage the database.
 
 I have created four Python scripts : 
  
