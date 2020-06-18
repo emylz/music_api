@@ -14,7 +14,7 @@
 
 ## Introduction  <a id="link1">
 
-This is a json web service that allow to manage an online music store. The items are stored in a MongoDB database. I have used MongoDB Atlas to store my data. There are three collections inside the database : albums, artists and trakcs. Each collection contain the data type of their name (the collection albums contains albums).
+This is a json web service that allows to manage an online music store. The items are stored in a MongoDB database. I have used MongoDB Atlas to store my data. There are three collections inside the database : albums, artists and trakcs. Each collection contain the data type of their name (the collection albums contains albums).
 
 The format of the data is : 
 
