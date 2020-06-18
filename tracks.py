@@ -33,7 +33,7 @@ def get_all_tracks():
     #Output where results will be stored
     output = []
 
-    #Find all tracks and get their attributs : type, id and tags
+    #Find all tracks and get their attributs : type, ID and tags
     for a in tracks.find():
         output.append({'type':a['type'], 'id':a['_id'], 'tags':a['tags']})
 
