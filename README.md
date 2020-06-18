@@ -20,7 +20,7 @@ The format of the data is :
 
  - type : the type of the data. This is the name of the collection where the data is stored (ex: track).
  
- - id : the id of the data inside the database. The id is mainly used to find item make a difference between the data (ex: 123).
+ - id : the id of the data inside the database. The id is mainly used to find item to make a difference between the data (ex: 123).
  
  - tags : this is a list which contains all tags associated to the item. We can use the Api to add tags to the item we want (ex: tag_a).
  
