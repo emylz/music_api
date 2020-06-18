@@ -1,4 +1,4 @@
-#Import flask to run the Api et send requests
+#Import flask to run the Api and send requests
 from flask import Flask, jsonify, request
 from flask_pymongo import PyMongo
 
