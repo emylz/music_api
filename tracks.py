@@ -53,7 +53,7 @@ def add_track():
     type_track = request.json['type']
     
 
-    #Check if the type the item is good
+    #Check if the type of the item is right
     if(type_track != "track"):
         return  "Wrong type", 400
 
