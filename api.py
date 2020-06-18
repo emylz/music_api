@@ -39,7 +39,7 @@ def tag_artists(id_artist):
 def artist_by_tag():
     return search_by_tag_artists()
 
-#Albums urls and function
+#Albums urls and functions
 @app.route('/albums/all', methods=['GET'])
 def all_albums():
     return get_all_albums()
@@ -61,7 +61,7 @@ def album_by_tag():
     return search_by_tag_albums()
 
 
-#Tracks urls and fuctions
+#Tracks urls and functions
 @app.route('/tracks/all', methods=['GET'])
 def all_tracks():
     return get_all_tracks()
