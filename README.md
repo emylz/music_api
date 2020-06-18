@@ -71,7 +71,7 @@ I have created four Python scripts :
  
  ### Run the api  <a id="link5">
  
- The Api runs on Linux. Open a konsole and go to the directory where your project is. This directory must contain the four Python scripts. 
+ The Api runs on Linux. Open a console and go to the directory where your project is. This directory must contain the four Python scripts. 
  
  Run: 
   ```bash
