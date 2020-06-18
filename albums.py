@@ -67,12 +67,12 @@ def add_album():
     new_album = albums.find_one({'_id' : album_id})
 
     
-    #Check if the information are corrects in the database
+    #Check if the information are correct in the database
     output = {'type':new_album['type'], 'id' : new_album['_id'], 'tags' : new_album['tags']}
 
     
     #Show the content of the album inserted as response
-    #to check if the information are corrects
+    #to check if the information are correct
     return jsonify({'result': output})
 
 
@@ -106,7 +106,7 @@ def add_tags_albums(id_album):
     output = {'type':updated_album['type'], 'id' : updated_album['_id'], 'tags' : updated_album['tags']}
 
     #Show the content of the updated album as response
-    #to check if the information are corrects
+    #to check if the information are correct
     return jsonify({'result':output})
 
 
