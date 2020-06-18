@@ -118,7 +118,7 @@ def search_by_tag_artists():
     #Preparing the response body
     output = []
 
-    #Find and get all the artists having the matching tags
+    #Find and get all the artists which have the matching tags
     for artist in artists.find({"tags":{"$all":tags}}):
         output.append(artist['_id'])
 
