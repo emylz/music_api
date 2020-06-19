@@ -118,7 +118,7 @@ POST http://127.0.0.1:5000/artists/id
  
   Use the following request:
   ```bash
-GET http://127.0.0.1:5000/tracks?tags[]=tag_a&tags[]=tag_f
+GET http://127.0.0.1:5000/tracks?tags[]=tag_a&tags[]=tag_b
  ```
 where tag_a and tag_b are the tags which must be in the tags list of the returned items. Replace tracks by albums or artists to get the albums or artists items.
 There will be a json array as response where the content will include all the IDs of the items that have the tags in parameters.
