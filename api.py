@@ -112,7 +112,7 @@ def export():
 
     #Write localy a json file
     exportJson(results, "export")
-    print("Json file has been wrote in your directory")
+    print("Json file has been written in your directory")
 
 
     #This is the response send by the Api
