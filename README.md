@@ -57,7 +57,7 @@ The items are stored in a MongoDB cloud database. To communicate with this datab
  
    - PyMongo
   ```bash
- pip3 install pymongo
+ python3 -m pip install pymongo
  ```
  
  - DNSPython
