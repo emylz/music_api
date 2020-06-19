@@ -112,7 +112,7 @@ DELETE http://127.0.0.1:5000/artists/remove
   ```bash
 POST http://127.0.0.1:5000/artists/id
  ```
- where id is the ID of the item where you want to add tags. Artists is the collection. This is the same for albums and tracks. Do not forget to pass json array in the body of your request which contains the tags.
+ where id is the ID of the item where you want to add tags and artists is the collection. This is the same for albums and tracks. Do not forget to pass a json array in the body of your request which contains the tags.
  
  **2. Get content list from a tag set** <a id="link8">
  
